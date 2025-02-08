@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Slide Effect</title>
+  <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<style>
+
+</style>
+<div class="tareq">
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+            <br>
+			<span>or use your email for registration</span>
+            <br>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button><a href="index.html">Sign Up</a></button>
+		</form>
+	</div>
+
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+            <br>
+			<span>or use your account</span>
+            <br>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<a href="#">Forgot your password?</a>
+			<button><a href="index.html">Sign In</a></button>
+		</form>
+	</div>
+
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<br> 
+                <h1> مرحباً بك </h1>
+				<p>
+                    للبقاء على اتصال معنا و متابعة اخر العروض <br> يرجى تسجيل الدخول باستخدام معلوماتك الشخصية </p>
+				<button class="ghost" id="signIn" onClick="signin()">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right"><br> 
+				<h1> مرحباً بك </h1>
+				<p>  قم بتسجيل الدخول ، و تسوق معنا بأمآن و سرعة </p>
+				<button class="ghost" id="signUp" onClick="signup()">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- partial -->
+  <script  src="login.js"></script>
+
+</body>
+</html>
+								                            
